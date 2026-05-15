@@ -6,6 +6,19 @@ name = "cleura-openstack"
 dynamic = ["version"]
 description = "Conveniently installs OpenStack clients for use with Cleura Cloud"
 requires-python = ">=3.11"
+dependencies = [
+    "python-barbicanclient<7.2.0",
+    "python-cinderclient<9.8.0",
+    "python-designateclient<6.3.0",
+    "python-heatclient<4.2.0",
+    "python-glanceclient<4.9.0",
+    "python-keystoneclient<5.7.0",
+    "python-neutronclient<11.5.0",
+    "python-novaclient<18.10.0",
+    "python-octaviaclient<3.11.0",
+    "python-openstackclient<7.6.0",
+    "openstacksdk<4.5.0",
+]
 readme = {file = "README.md", content-type = "text/markdown"}
 license = "Apache-2.0"
 license-files = ["LICENSE.txt"]

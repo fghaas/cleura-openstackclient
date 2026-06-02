@@ -13,7 +13,7 @@ This package provides no functionality of its own; it only installs dependencies
 To install directly from this repository, run:
 
 ```shell
-pip install git+https://github.com/cleura/cleura-openstackclient@v0.0.1
+pip install git+https://github.com/cleura/cleura-openstackclient@v0.0.2
 ```
 
 Then, invoke the `openstack` command provided by the `python-openstackclient` package.

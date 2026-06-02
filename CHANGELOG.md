@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## Version 0.0.2 (2026-06-02)
 
 * Rename the project/repo/package to `cleura-openstackclient` (from `cleura-openstack`).
 

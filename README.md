@@ -13,13 +13,13 @@ This package provides no functionality of its own; it only installs dependencies
 To install from PyPI, run:
 
 ```shell
-pip install cleura-openstackclient==0.0.2
+pip install cleura-openstackclient==0.0.3
 ```
 
 To install directly from this repository, run:
 
 ```shell
-pip install git+https://github.com/cleura/cleura-openstackclient@v0.0.2
+pip install git+https://github.com/cleura/cleura-openstackclient@v0.0.3
 ```
 
 Then, invoke the `openstack` command provided by the `python-openstackclient` package.

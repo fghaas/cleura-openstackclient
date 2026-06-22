@@ -4,7 +4,7 @@ Conveniently installs OpenStack clients for Cleura Cloud.
 
 ## Purpose
 
-By `pip`-installing this meta-package into a virtual environment (venv), you populate your environment with [OpenStack](https://openstack.org) clients whose versions are guaranteed to work with [Cleura Cloud](https://docs.cleura.cloud).
+By `pip`-installing this meta-package into a virtual environment (venv), you populate your environment with [OpenStack](https://openstack.org) clients whose versions are expected to work with [Cleura Cloud](https://docs.cleura.cloud).
 
 This package provides no functionality of its own; it only installs dependencies.
 
@@ -16,7 +16,7 @@ To install from PyPI, run:
 pip install cleura-openstackclient==0.0.3
 ```
 
-To install directly from this repository, run:
+To install directly from [the repository](https://github.com/cleura/cleura-openstackclient), run:
 
 ```shell
 pip install git+https://github.com/cleura/cleura-openstackclient@v0.0.3
